@@ -1,0 +1,75 @@
+.consultaGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,303px);
+    gap:40px;
+    padding: 35px;
+    justify-content: center;
+  
+}
+.container{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color:  rgb(119, 121, 58, 0.35); 
+    padding: 30px;
+    text-align: center;
+    width: 230px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+    
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    color: brown;
+    margin-top: 10px;
+}
+
+.button-34 {
+  background: #f05dce;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  /* user-select: none;
+  -webkit-user-select: none; */
+  touch-action: manipulation;
+  width: fit-content;
+  /* word-break: break-word; */
+  border: 0;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Busca{
+  width: 400px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+ 
+  
+}
+input{
+    height: 30px;
+    border: 1px;
+}
+
+input:hover{
+    color:red;
+}
+
+.form-label{
+    text-align: center;
+}

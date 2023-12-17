@@ -1,0 +1,17 @@
+footer {
+    background-color: rgb(119, 121, 58, 0.35);
+    height: 40px;
+    align-items: center;
+    justify-content: center; /* Centrar horizontalmente */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);    
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+P {
+    text-align: center !important;
+    font-weight: bold;
+
+}
